@@ -105,10 +105,7 @@ of recording. The deepest drop (at 42.75 h) shows up at 4.2 s and again at
   the 60-minute average suppresses anything slower, so a peak just above that
   is partly made by the processing, and four hours is too short to measure an
   interval anyway.
-- At one sample per second the file covers about 73 hours, but the dataset
-  description says this species was recorded for 1.5 days [1]. I've kept the
-  stated rate. If it were really two samples per second, every time here would
-  halve.
+- At one sample per second the S. commune file covers about 73 hours, but the dataset description says this species was recorded for 1.5 days [1]. I checked the other three files and none of them match either: at one sample per second they cover 14 to 38 days, against the roughly 5 days described. The mismatch is different for each file, so a single wrong sampling rate doesn’t explain it. I’ve kept the stated rate of one sample per second, so the times here would be off if thats wrong.
 - The events I picked are about 0.1 mV, bigger than the 0.03 mV average the
   paper reports for this species [2]. I chose the window because the events
   are clear, not because it's typical.
