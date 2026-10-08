@@ -26,9 +26,9 @@ capacitor smooth that into a steady voltage. GPIO1 then reads the smoothed
 voltage back on the ADC.
 
 ```
-GPIO2 (PWM out) ---[ 1 kΩ ]---+--- GPIO1 (ADC in)
+GPIO2 (PWM out) ->[ 1 kΩ ]--->+--- GPIO1 (ADC in)
                               |
-                           [22 µF]   (+ leg on the GPIO1 side)
+                           [22 µF]   ##+ leg on the GPIO1 side##
                               |
                               G
 ```
