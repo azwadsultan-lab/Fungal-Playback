@@ -9,7 +9,7 @@ doing what it should.
 
 The recording isn't mine. It comes from Andrew Adamatzky's open dataset [1].
 
-![My breadboard circuit](images/circuit.jpeg)
+My breadboard circuit(images/circuit.jpeg)
 
 1. A quick warning
 
@@ -65,7 +65,7 @@ slowly.
 Those 14,400 samples are averaged down to 2,000 points, scaled to 0–1023 for
 the 10-bit PWM, and saved as `waveform.h`.
 
-![Channel 2 trace and spectrum](cp plots/channel_2.png plots/trace_and_spectrum.png)
+Channel 2 trace and spectrum(cp plots/channel_2.png plots/trace_and_spectrum.png)
 
 *Top: the whole recording, with my four-hour window shaded. Middle: the window
 after drift removal, which is what gets played. Bottom: its spectrum.*
