@@ -9,8 +9,7 @@ doing what it should.
 
 The recording isn't mine. It comes from Andrew Adamatzky's open dataset [1].
 
-My breadboard circuit (images/circuit.jpeg)
-
+![My breadboard circuit](images/circuit.jpeg)
 1. A quick warning
 
 The board puts out up to 3.3 V. The fungal signals in the paper are around
